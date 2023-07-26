@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>김규리12</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/jquery.fullpage.min.css">
+    <link rel="stylesheet" href="./css/cdn.jsdelivr.net_npm_swiper@10_swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script src="./js/jquery.fullpage.min.js"></script>
+    <script src="./js/cdn.jsdelivr.net_npm_swiper@10_swiper-bundle.min.js"></script>
+    <script src="./js/custom.js" defer></script>
+</head>
+
+<body>
+    <!-- 헤더 -->
+    <header class="Header">
+        <div class="fix_nav_wrap">
+            <!-- 로고 -->
+            <h1>
+                <a href="#main" class="logo"></a>
+            </h1>
+            <!-- 메뉴 -->
+            <nav class="top_nav">
+                <ul>
+                    <li><a href="">COMPANY</a></li>
+                    <li><a href="">WORKS</a></li>
+                    <li><a href="">PROGRAM</a></li>
+                    <li><a href="">WITH US</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </nav>
+            <!-- 로그인 area -->
+            <div class="login_area">
+                <ul>
+                    <li class="highlight"><a href="">Login</a></li>
+                    <li><a href="">Join us</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- fix 카피, 컨택트 (푸터역할) -->
+    <div class="fix_ft_wrap">
+        <div class="copy">
+            &copy; <b>shining</b> Inc.
+        </div>
+        <div class="contact">
+            <h3>Contact us</h3>
+            <p>
+                258, Buheung-ro, Bucheon-si,<br />
+                Bucheon-si, Gyeonggi-do<br />
+                Tel. 032-324-6040<br />
+                Fax. 0505.200.6060
+            </p>
+            <a href="">Request now<i class="bi bi-arrow-right"></i></a>
+        </div>
+    </div>
+
+
+    <!-- 풀페이지 gnb -->
+    <nav class="gnb">
+        <ul>
+            <li class="on"><a href="#main"><span>Main</span></a></li>
+            <li><a href="#sub01"><span>What we do</span></a></li>
+            <li><a href="#sub02"><span>About us</span></a></li>
+            <li><a href="#sub03"><span>Contact</span></a></li>
+        </ul>
+    </nav>
+
+    <!-- 메인 -->
+    <main class="Main__content">
+        <!-- 메인슬라이드 -->
+        <section class="section main">
+            <div class="main_slide swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide itm01 itm">
+                        <div class="slogan">
+                            <strong>Creative Shining Inc.</strong>
+                            <h2>Think the Design,<br />
+                                Design the Thinking.</h2>
+                        </div>
+                    </div>
+                    <div class="swiper-slide itm02 itm">
+                        <div class="slogan">
+                            <strong>Creative Shining Inc.</strong>
+                            <h2>We are help you<br />
+                                Grow your business.</h2>
+                        </div>
+                    </div>
+                    <div class="swiper-slide itm03 itm">
+                        <div class="slogan">
+                            <strong>Creative Shining Inc.</strong>
+                            <h2>If you can think it,<br />
+                                We can web it.</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 섹션1 : What we do -->
+        <section class="section sub01">
+            <div class="content inner">
+                <div class="title">
+                    <strong>What we do</strong>
+                    <h2>An experienced design agency<br />
+                        we design your dreams</h2>
+                </div>
+                <div class="vertical">
+                    <span class="line_01"></span>
+                    <span class="line_02"></span>
+                    <span class="line_03"></span>
+                    <span class="line_04"></span>
+                    <span class="line_05"></span>
+                    <span class="line_06"></span>
+                    <span class="line_07"></span>
+                    <span class="line_08"></span>
+                </div>
+                <nav class="info_box">
+                    <ul>
+                        <li>
+                            <div class="img">
+                                <img src="./images/img01.jpg" alt="">
+                            </div>
+                            <p class="txt_01">Design solution</p>
+                        </li>
+                        <li>
+                            <div class="img">
+                                <img src="./images/img02.jpg" alt="">
+                            </div>
+                            <p class="txt_02">Strategy &amp; research </p>
+                        </li>
+                        <li>
+                            <div class="img">
+                                <img src="./images/img03.jpg" alt="">
+                            </div>
+                            <p class="txt_03">Web development</p>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+
+        <!-- 섹션2 : About us -->
+        <section class="section sub02">
+            <div class="content inner">
+                <div class="side_title">
+                    <div class="side_bar">
+                        <div class="side_txt">
+                            <h2>Creative<br />
+                                Shining co.
+                            </h2>
+                            <p>끝 없는 관찰과 연구만이 발 빠른 IT 시장의<br />
+                                기업파트너로서 최고의 Identity라는<br />
+                                생각 하나로.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="con_bg">
+                    <img src="/images/con_img.jpg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!-- 섹션3 : Contact -->
+        <section class="section sub03">
+            <div class="end_bg">
+                <div class="content inner">
+                    <div class="title">
+                        <strong>Design usability</strong>
+                        <h2>Let's create<br />
+                            progress together</h2>
+                    </div>
+                    <div class="form_box">
+                        <ul>
+                            <li>
+                                <label for="name">Name</label>
+                                <input type="text">
+                            </li>
+                            <li>
+                                <label for="tel">Tel</label>
+                                <input type="text">
+                            </li>
+                            <li>
+                                <label for="message">Message</label>
+                                <input type="text">
+                            </li>
+                        </ul>
+                        <p class="prv_area">
+                            <a href="">privacy policy</a>
+                        </p>
+                        <input type="submit" value="SUBMIT" id="btn_submit">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
