@@ -242,7 +242,7 @@
 
 @media (max-width: 768px) {
     .fix_ft_wrap .copy {
-        bottom: 12px;
+        bottom: 20px;
         left: 280px;
         font-size: 14px;
     }
@@ -273,7 +273,7 @@
 @media (max-width: 768px) {
     .fix_ft_wrap .contact {
         left: 15px;
-        bottom: -28px;
+        bottom: -20px;
     }
 
     .fix_ft_wrap .contact h3 {
