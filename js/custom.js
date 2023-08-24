@@ -3,7 +3,7 @@ $(function () {
         anchors: ['main', 'sub01', 'sub02', 'sub03'],
         navigation: false,
         css3: false,
-        // responsiveWidth: 768,
+        responsiveWidth: 768,
         afterRender: function () {
             $('.Main__content .section').eq(0).addClass('on')
         },
