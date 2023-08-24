@@ -1,10 +1,9 @@
 $(function () {
     $('.Main__content').fullpage({
         anchors: ['main', 'sub01', 'sub02', 'sub03'],
-        // sectionsColor: ['#f2f2f2', '#4BBFC3', '#7BAABE', 'whitesmoke', '#000'],
         navigation: false,
         css3: false,
-        responsiveWidth: 700,
+        // responsiveWidth: 768, 반응형에서도 풀페이지 활성화
         afterRender: function () {
             $('.Main__content .section').eq(0).addClass('on')
         },
@@ -35,9 +34,7 @@ $(function () {
         $(this).toggleClass('on');
         $('.top_nav').toggleClass('on')
     });
-
-
-})
+});
 
 
 const MAIN_SLIDE = new Swiper('.main_slide', {
@@ -48,5 +45,4 @@ const MAIN_SLIDE = new Swiper('.main_slide', {
         delay: 4000,
         disableOnInteraction: false,
     },
-
 });
